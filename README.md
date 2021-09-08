@@ -1,2 +1,1 @@
-# snowwind
-NextJS + Tailwind Starter kit
+# Snow Wind Boilerplate
