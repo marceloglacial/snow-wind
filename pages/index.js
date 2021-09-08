@@ -16,7 +16,7 @@ export default function Home() {
             <li>Layout with Site Info</li>
             <li>ES Lint</li>
             <li>Google Font pre-loaded</li>
-            <li>Lighthouse 100% </li>
+            <li>Lighthouse 100%</li>
           </ul>
         </div>
       </section>

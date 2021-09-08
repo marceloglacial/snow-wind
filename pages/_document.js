@@ -9,7 +9,14 @@ class MyDocument extends Document {
   render() {
     return (
       <Html lang='en'>
-        <Head />
+        <Head>
+          <link rel='preconnect' href='https://fonts.gstatic.com' />
+          <link
+            crossOrigin='anonymous'
+            href={`https://fonts.googleapis.com/css?family=Montserrat:200,700&display=swap`}
+            rel='stylesheet'
+          />
+        </Head>
         <body>
           <Main />
           <NextScript />
