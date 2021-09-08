@@ -1,25 +1,23 @@
 import Layout from '../components/Layout/Layout';
-import { useTheme } from 'next-themes';
+import ThemeSwitch from '../components/ThemeSwitch/ThemeSwitch';
 
 export default function Home() {
-  const { theme, setTheme } = useTheme();
-
   return (
     <Layout>
-      <section className='theme absolute top-5 right-10'>
-        <button
-          aria-label='Toggle Dark Mode'
-          type='button'
-          className='p-3 h-12 w-12 order-2 md:order-3'
-          onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
-        >
-          {theme}
-        </button>
-      </section>
+      <ThemeSwitch />
       <section className='hero flex justify-center items-center h-screen w-screen bg-white dark:bg-gray-900'>
         <div className='hero__content dark:text-white'>
           <h1 className='text-5xl'>Snow Wind Boilerplate</h1>
           <p>A NextJS + Tailwind Start Kit</p>
+          <h2 className='text-2xl pt-5'>Features</h2>
+          <ul className='list-disc pl-8'>
+            <li>SEO-Ready Site Head</li>
+            <li>Theme Switcher</li>
+            <li>Layout with Site Info</li>
+            <li>ES Lint</li>
+            <li>Google Font pre-loaded</li>
+            <li>Lighthouse 100% </li>
+          </ul>
         </div>
       </section>
     </Layout>
