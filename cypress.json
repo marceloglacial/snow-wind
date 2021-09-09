@@ -1,0 +1,9 @@
+{
+  "chromeWebSecurity": false,
+  "viewportWidth": 1280,
+  "viewportHeight": 800,
+  "component": {
+    "componentFolder": "components",
+    "testFiles": "**/*spec.{js,jsx,ts,tsx}"
+  }
+}
