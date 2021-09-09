@@ -7,7 +7,7 @@ export default function Home() {
       <ThemeSwitch />
       <section className='hero flex justify-center items-center h-screen w-screen bg-white dark:bg-gray-900'>
         <div className='hero__content dark:text-white'>
-          <h1>Snow Wind Boilerplateeee</h1>
+          <h1>Snow Wind Boilerplate</h1>
           <p>A NextJS + Tailwind Start Kit</p>
           <h2>Features</h2>
           <ul>
