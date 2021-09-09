@@ -1,4 +1,4 @@
-![example workflow](https://github.com/marceloglacial/snow-wind/actions/workflows/main.yml/badge.svg)
+![Cypress workflow](https://github.com/marceloglacial/snow-wind/actions/workflows/main.yml/badge.svg) ![CodeScan workflow](https://github.com/marceloglacial/snow-wind/actions/workflows/codeql-analysis.yml/badge.svg)
 
 # Snow Wind Boilerplate
 A NextJS + Tailwind starter kit
