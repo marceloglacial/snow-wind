@@ -4,7 +4,11 @@
     "dev": "next dev",
     "build": "next build && next export",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "cypress": "cypress open",
+    "cypress:headless": "cypress run",
+    "e2e": "start-server-and-test start http://localhost:3000 cypress",
+    "e2e:headless": "start-server-and-test start http://localhost:3000 cypress:headless"
   },
   "dependencies": {
     "next": "^11.1.2",
@@ -14,9 +18,13 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.2.6",
+    "cypress": "^8.3.1",
     "eslint": "7.32.0",
     "eslint-config-next": "11.1.2",
+    "eslint-config-prettier": "^8.3.0",
     "postcss": "^8.3.5",
+    "sass": "^1.39.0",
+    "start-server-and-test": "^1.14.0",
     "tailwindcss": "^2.2.11"
   }
 }

@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1 {
+    @apply text-5xl;
+  }
+  h2 {
+    @apply text-2xl pt-5 pb-3;
+  }
+  h3 {
+    @apply text-base pt-5 pb-3;
+  }
+  ul {
+    @apply list-disc pl-8;
+  }
+  a {
+    @apply text-blue-700 underline dark:text-blue-300;
+  }
+}
