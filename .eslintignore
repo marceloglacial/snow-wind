@@ -1,0 +1,6 @@
+*.css
+*.svg
+*.spec*.*
+node_module
+dist
+/*.js
