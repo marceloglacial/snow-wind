@@ -1,6 +1,7 @@
 {
-    "name": "next-tailwind-template",
-    "version": "0.1.0",
+    "name": "snowwind",
+    "version": "0.3.0",
+    "author": "Marcelo Glacial",
     "private": true,
     "scripts": {
         "dev": "next dev",
