@@ -1,7 +1,7 @@
 # Snow Wind Boilerplate
 
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/marceloglacial/snow-wind)
-![Cypress workflow](https://github.com/marceloglacial/snow-wind/actions/workflows/main.yml/badge.svg)
+![Cypress workflow](https://github.com/marceloglacial/snow-wind/actions/workflows/tests.yml/badge.svg)
 
 Another NextJS + Tailwind starter kit
 
