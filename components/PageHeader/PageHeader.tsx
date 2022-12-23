@@ -12,11 +12,10 @@ const PageHeader: FC<PageHeaderProps> = ({
     description,
     favicon,
 }): JSX.Element => {
+    const pageTitle = description ? `${title} - ${description}` : title
     return (
         <Head>
-            <title>
-                {title} {description && `- ${description}`}
-            </title>
+            <title>{pageTitle}</title>
             <meta name={title} content={description} />
             <meta
                 name='viewport'
