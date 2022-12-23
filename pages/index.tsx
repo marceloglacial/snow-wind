@@ -18,6 +18,15 @@ export default function Home() {
                         Snow Wind Boilterplate
                     </h1>
                     <p>A NextJS + Tailwind CSS starter pack</p>
+                    <h6 className='text-sm'>
+                        Created by{' '}
+                        <a
+                            className='text-blue-600 hover:underline'
+                            href='https://github.com/marceloglacial'
+                        >
+                            Marcelo Glacial
+                        </a>
+                    </h6>
                 </div>
             </main>
         </Layout>
