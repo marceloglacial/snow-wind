@@ -12,5 +12,5 @@ jobs:
                   install: npm install
                   build: npm run build
                   start: npm start
-                  wait-on: 'http://localhost:6006'
+                  wait-on: 'http://localhost:3000'
                   wait-on-timeout: 110

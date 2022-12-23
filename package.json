@@ -4,13 +4,15 @@
     "private": true,
     "scripts": {
         "dev": "next dev",
-        "build": "next build",
+        "build": "yarn eslint && yarn format && next build",
         "start": "next start",
         "lint": "next lint",
         "format": "prettier -w pages",
         "eslint": "eslint --fix pages/*.ts*",
         "husky-actions": "npm run format && npm run lint",
-        "prepare": "husky install"
+        "prepare": "husky install",
+        "test": "concurrently \"yarn dev\" \"yarn run cypress open\"",
+        "test:ci": "next build && concurrently \"yarn start\" \"cypress run --headless\""
     },
     "dependencies": {
         "@next/font": "13.1.0",
@@ -28,6 +30,8 @@
         "@typescript-eslint/eslint-plugin": "^5.47.0",
         "@typescript-eslint/parser": "^5.47.0",
         "autoprefixer": "^10.4.13",
+        "concurrently": "^7.6.0",
+        "cypress": "^12.2.0",
         "eslint-config-prettier": "^8.5.0",
         "eslint-plugin-prettier": "^4.2.1",
         "husky": "^8.0.2",
