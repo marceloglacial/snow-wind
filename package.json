@@ -1,6 +1,6 @@
 {
-    "name": "snowwind",
-    "version": "0.3.2",
+    "name": "@marceloglacial/snow-wind",
+    "version": "1.0.0",
     "author": "Marcelo Glacial",
     "private": true,
     "scripts": {
