@@ -17,7 +17,9 @@ const Layout: FC<LayoutProps> = (props): JSX.Element => {
             <PageHeader
                 title={'SnowWind Boilerplate'}
                 description={'A NextJS + Tailwind CSS starter pack'}
-                favicon={'/favicon.png'}
+                favicon={
+                    'https://res.cloudinary.com/dw2wjwhuv/image/upload/c_scale,w_128/v1671820947/snow-wind/favicon_fovbdd.png'
+                }
             />
             {children}
         </div>

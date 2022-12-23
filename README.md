@@ -14,5 +14,6 @@ Another NextJS + Tailwind starter kit
 -   <a href='https://prettier.io'>Prettier</a>
 -   <a href='https://typicode.github.io/husky/'>Husky</a>
 -   <a href='https://github.com/features/actions'>Github Actions</a>
+-   <a href='https://cloudinary.com'>/Cloudinary</a> next/image support
 
 Created by <a href='https://marceloglacial.com'>Marcelo Glacial</a>

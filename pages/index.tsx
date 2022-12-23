@@ -7,9 +7,9 @@ export default function Home() {
             <main className='h-screen w-screen grid place-content-center gap-8'>
                 <figure className='grid place-content-center'>
                     <Image
-                        src='/favicon.png'
+                        src='https://res.cloudinary.com/dw2wjwhuv/image/upload/c_scale,w_128/v1671820947/snow-wind/favicon_fovbdd.png'
                         width={128}
-                        height={128}
+                        height={124}
                         alt='logo'
                     />
                 </figure>
